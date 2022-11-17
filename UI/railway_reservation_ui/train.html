@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Booking Ticket</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <img class="logo" src="train.jpeg">
+        <i id="algo" class='fa-solid fa-train'></i>
+        <h2 class="heading">Algo Train Booking</h2>
+        <a  class="contact">Contact us</a>
+        <h1 class="head">BOOK YOUR TICKET EASILY!</h1>
+    </div>
+    <div class="frame3">
+        
+        <a >Namaste🙏</a>
+        <a id="frame">Book Your Ticket Now</a>
+        <div >
+            
+            <form id="fromdrop">
+                <label  for="FromPlace">From</label>
+                <br>
+                <select style="border: 2px; height: 20px;" name="FromPlace" id="FromPlace">
+                  <option value=" "></option>
+                  <option value="1">New Delhi</option>
+                  <option value="2">Kolkata</option>
+                  <option value="3">Mumbai</option>
+                </select>
+              </form>
+        </div>
+        
+        
+        <div>
+            
+            <form id="todrop">
+                <label  for="FromPlace">To</label><br>
+                <select style="border: 2px;height: 20px; " name="ToPlace" id="ToPlace">
+                  <option value=" "></option>
+                  <option value="1">New Delhi</option>
+                  <option value="2">Kolkata</option>
+                  <option value="3">Mumbai</option>
+                </select>
+        </div>
+        <div class="date">
+            <form>
+                <label for="Dateofjourney">Date of Journey</label><br>
+               <input style="width:160px ;height: 20px; border:2px" type="date" id="Dateofjourney" name="Dateofjourney">
+                
+              </form>
+        </div>
+        <div class="typeofclass">
+            <label  for="Class">Class</label>
+            <br>
+                <select style="width: 160px;height: 20px; border: 2px;" name="Class" id="Class">
+                  <option value=" "></option>
+                  <option value="1-AC">1-AC</option>
+                  <option value="2-AC">2-AC</option>
+                  <option value="3-AC">3-AC</option>
+                  <option value="Sleeper">Sleeper</option>
+                </select>
+                <button class="button" id="formSubmit">Submit </button>
+        </div>
+        
+    </div>
+<div class="frame4">
+    <div class="card">
+        <div class="card-header">
+        Train no   Train Name
+        </div>
+        <div class="card-body">
+        <h5 class="card-title">Source --->  Destination</h5>
+        <span class="card-text">Seat Available 3A - 100</span>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <span class="card-text">Seat Available SL - 100</span>
+        </div>
+    </div>
+</div>    
+    
+    <!-- <div class="frame4">
+        <a class="frame41">"Life Is A Journey Not A Destination So Travel Enough To Meet Yourself!"</a>
+        <br>
+        <a class="frame42">"Algo Train Booking Is Simple and Easy to book customer service is good!"</a>
+        <br>
+        <a class="frame43">"customer",Customer</a>
+    </div>  -->
+
+    
+    <div class="frame5">
+        
+        
+        <span class="q1">
+            
+            <a>FAQ</a>
+            <br>
+            <br>
+            <a>Q. Do children get any discount on IRCTC Train Tickets?</a>
+            <br>
+            <a>A. IRCTC doesn't charge below the age of 5. for children who are above 5 years, you'd have to pay the full ticket fare, and they will be provided with a seat.</a>    
+            <br>
+            <br>
+            <br>
+            
+        </span>
+        
+        <span class="q2">
+            <br>
+            <br>
+            <a>Q. can i book a tatkal ticket?</a>
+            <br>
+            <a>A. yes, you can book your tatkal ticket on MakeMyTicket in case of emergencies or last-minute travel planes. the tatkal window opens for an hour.</a>
+            <br>
+        </span>
+        <span class="q3">
+            <a>Q. How many days in advance can the rail tickets be booked?</a>
+            <br>
+            <a>A. You can make your IRCTC train booking 120 days in advance</a>
+            <br>
+        </span>
+        <span class="q4">
+            <a>Q.what is the process for booking online train tickets?</a>
+            <br>
+            <a>A. for booking train tickets algo train booking enter the name of the city, station name oor station code of the cities you will depart from and arrive at. from the updates list of trains available, choose your prefered class of travel. while making the railway reservation on our app or website, you would need to add your IRCTC username. this verfication process is important. it you don't have a username, you can easily create one by adding the details required.</a>
+            <br>
+        </span>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <span class="follow">Follow Us On
+                
+            </span>
+            <img id="img1" src="fb.jpg">
+            <img id="img2" src="insta1.png">
+            <img id= "img3" src="twitter1.png">
+            <div class="last">
+                <i>ALGO TRAIN BOOKING PVT LTD.</i>
+                <br>
+                <br>
+                <i>ALL RIGHTS RESERVED</i>
+            </div>
+            
+        </div>
+      </footer>
+</body>
+<script src="jquery-3.6.1.min.js"></script>
+<script src="./train.js"></script>
+</html>
